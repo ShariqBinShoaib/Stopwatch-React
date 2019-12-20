@@ -1,0 +1,65 @@
+.timers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.start-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.stop-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #da190c;
+}
+
+.stop-btn:hover {
+  background-color: #da190c;
+  color: white;
+}
+
+.reset-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.reset-btn:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+

@@ -1,0 +1,36 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition-property: left;
+  transition-delay: 2s;
+  transition-duration: 2s;
+}
+
+.timer-label {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.timer-container {
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: #ffffff;
+  border-style: dashed;
+  background-color: none;
+  text-align: center;
+  margin: 0 10px 20px 10px;
+  position: relative;
+}
+
+.timer-value {
+  font-size: 50px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
