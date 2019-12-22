@@ -1,8 +1,8 @@
 .timers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: auto;
+  justify-content: center;
+  width: 100%;
 }
 
 .btn-container {
@@ -24,7 +24,7 @@
   display: inline-block;
   font-size: 16px;
   margin: 10px 5px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; /*Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -61,5 +61,3 @@
   background-color: #008cba;
   color: white;
 }
-
-

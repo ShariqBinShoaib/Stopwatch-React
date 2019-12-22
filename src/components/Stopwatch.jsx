@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Timer from "./Timer";
 import "./styleSheets/Stopwatch.css";
 import { setInterval, clearInterval } from "timers";
-import { CSSTransition } from "react-transition-group";
 
 class Stopwatch extends Component {
   state = {
@@ -102,18 +101,11 @@ class Stopwatch extends Component {
     const { timers, isRunning } = this.state;
     return (
       <React.Fragment>
-        <CSSTransition
-          in={true}
-          appear={true}
-          timeout={1000}
-          classNames="appearDelay"
-        >
           <div className="timers">
             {timers.map(timer => (
               <Timer key={timer.label} data={timer.time} label={timer.label} />
             ))}
           </div>
-        </CSSTransition>
         <div className="btn-container">
           <button
             onClick={isRunning ? this.handleStop : this.handleStart}

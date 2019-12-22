@@ -3,9 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition-property: left;
-  transition-delay: 2s;
-  transition-duration: 2s;
+  transition: 500ms ease-in-out;
+}
+.timer-label-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms ease-in-out;
 }
 
 .timer-label {
@@ -27,10 +32,19 @@
   text-align: center;
   margin: 0 10px 20px 10px;
   position: relative;
+  transition: 500ms ease-in-out;
 }
 
 .timer-value {
   font-size: 50px;
   color: #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.timer-label-container-appear {
+  opacity: 0;
+  margin-left: 100%;
+}
+.timer-container-appear {
+  transform: rotate(16turn);
 }
